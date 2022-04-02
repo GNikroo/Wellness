@@ -16,7 +16,24 @@ body {
 
 /* headings */
 #about {
-    
+    width: 100%;
+    float: left;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-size: 260%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#about p {
+    line-height: 26px;
+    text-align: justify;
+    clear: both;
+    margin: 50px;
+    padding-right: 10px;
 }
 
 /* nav links */
@@ -24,6 +41,7 @@ body {
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 75px;
+    float: left;
 }
 
 #menu li {
