@@ -12,28 +12,44 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #3a3a3a;
+    background-color: #727272;
 }
 
-/* headings */
-#about {
-    width: 100%;
-    float: left;
+/* headings and banner*/
+#banner {
+    background: url(../images/pexels-pixabay-459301.jpg) no-repeat center center;
+    height: 100px;
+    background-color: #aa47c9;
 }
 
-h1 {
+#banner-text {
     text-transform: uppercase;
     letter-spacing: 3.5px;
     font-size: 260%;
-    margin-left: 30px;
+    margin: 0px 0 px 30px;
     text-align: center;
+    background-color: rgba(250, 249, 246, .6);
 }
+
+#banner{
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-image{
+    height:100px;
+    width: 100%;
+}
+
 
 #about p {
     line-height: 26px;
     text-align: justify;
     clear: both;
-    margin: 50px;
-    padding-right: 10px;
+    margin: 5%;
+    padding: 5px;
 }
 
 /* nav links */
@@ -46,7 +62,7 @@ h1 {
 
 #menu li {
     float: left;
-    list-style-type: disc;
+    list-style-type: none;
     margin-left: 30px;
 }
 
@@ -56,9 +72,11 @@ h1 {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #aa47c9;;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #aa47c9;;
 }
