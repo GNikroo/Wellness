@@ -11,14 +11,30 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #3a3a3a;
+    color: #312e2efb;
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+}
+
+.background:before {
+    background: url("../images/pexels-arın-turkay-1694980.jpg") center / cover;
+    content: '';
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(3px) hue-rotate(75deg);
 }
 
 /* headings and banner*/
+
 #banner {
     background: url(../images/pexels-pixabay-459301.jpg) no-repeat center center;
     height: 100px;
-    background-color: #aa47c9;
+    background-color: #9d47b8cb;
 }
 
 #banner-text {
@@ -42,8 +58,7 @@ body {
     width: 100%;
 }
 
-
-#about p {
+p {
     line-height: 26px;
     text-align: justify;
     clear: both;
