@@ -15,6 +15,20 @@ body {
     color: #312e2efb;
 }
 
+h3 {
+    text-decoration: underline solid #312e2efb;
+    text-underline-offset: 10px;
+    padding: 10px 0 0 50px;
+  }
+
+p {
+    line-height: 26px;
+    text-align: justify;
+    clear: both;
+    margin: 2%;
+    padding: 0 30px 0 25px;
+}
+
 .background {
     position: relative;
     height: 100vh;
@@ -43,7 +57,7 @@ body {
     letter-spacing: 3.5px;
     margin: 0 0 30px;
     padding: 10px;
-    top: 10vh;
+    top: 12vh;
     position: relative;
     font-size: 260%;
     text-align: center;
@@ -62,12 +76,8 @@ body {
     width: 100%;
 }
 
-p {
-    line-height: 26px;
-    text-align: justify;
-    clear: both;
-    margin: 2%;
-    padding: 1em;
+.underline {
+    text-decoration: underline solid;
 }
 
 /* nav links */
@@ -132,26 +142,7 @@ p {
         margin-top: 0;
     }
 
-    #left-about, #right-about {
-        width:100%;
-        float:left;
-        padding: 0;
-    }
-
-    #center-about{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
+    
     hr {
         display: none;
     }
