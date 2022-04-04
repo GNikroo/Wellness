@@ -4,14 +4,14 @@
 *,*:before, *:after {
     padding: 0;
     margin: 0;
-    border: none;  
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 18px;
+    line-height: 65px;
     color: #312e2efb;
 }
 
@@ -94,45 +94,17 @@ p {
 }
 
 #menu-1 a:hover{
-    text-shadow: 2px 2px 3px #2c2a2a;;
+    text-shadow: 2px 2px 3px #2c2a2a;
 }
 
 .active1{
-    text-shadow: 2px 2px 3px #2c2a2a;;
+    text-shadow: 2px 2px 5px #2c2a2a;
 }
 
 /* Media queries */
 
 /* For large to medium screens sizes from 1112px wide and down */
 @media screen and (max-width: 1112px){
-
-    #menu-1{
-        display: none;
-    }
-
-    #menu-2{
-        width:100%;
-        text-align: center;
-        display: inline-block;
-        font-size: 20px;
-        padding: 5px;
-        letter-spacing: 1.5em;
-    }
-     
-    #menu-2 ul {
-        text-align: right;
-    }
-    
-    #menu-2 li {
-        display: inline-block;
-        list-style-type: none;
-        margin-left: 10px;
-    }
-    
-    .active2{
-        text-shadow: 2px 2px 3px #2c2a2a;
-        color: inherit;
-    }
 
     #banner {
         height: 35vh;
@@ -185,15 +157,21 @@ p {
     }
 }
 
-/* For medium screens sizes from 844px wide and down */
-@media screen and (max-width: 844px){
+/* For medium screens sizes from 768px wide and down */
+@media screen and (max-width: 768px){
+
+    #menu-1 {
+        display: none;
+    }
+
     #menu-2{
         width:100%;
         text-align: center;
         display: inline-block;
-        font-size: 15px;
+        font-size: 14px;
         padding: 5px;
         letter-spacing: 1.5em;
+        line-height: 5vw;
     }
      
     #menu-2 ul {
@@ -205,6 +183,18 @@ p {
         list-style-type: none;
         margin-left: 10px;
     }
+
+    .active2{
+        text-shadow: 2px 2px 3px #2c2a2a;
+    }
+
+    #banner-text h2{
+        font-size: 75%;
+        margin: 0 auto;
+    }
+
+
+
 
     #cover-text{
         left:0px;
@@ -240,7 +230,10 @@ p {
 @media screen and (max-width: 425px){
     
     #banner-text {
+        top: 4vh;
+    }
+
+    #banner-text h2{
         font-size: 6vw;
-        top: 45%;
-    } 
-}
+        margin: 0 auto;
+    }
