@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,200&display=swap');
 
 
-*,*:before, *:after {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,7 +45,6 @@ p {
 }
 
 /* headings and banner*/
-
 #banner {
     background: url(../images/pexels-pixabay-459301.jpg) no-repeat center center;
     height: 100px;
@@ -64,28 +63,24 @@ p {
     background-color: rgba(250, 249, 246, .6);
 }
 
-#banner{
+#banner {
     height:300px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#banner-image{
+#banner-image {
     height:100px;
     width: 100%;
 }
 
-.underline {
-    text-decoration: underline solid;
-}
-
 /* nav links */
-#menu-2{
+#menu-2 {
     display: none;
 }
 
-#menu-1{
+#menu-1 {
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 65px;
@@ -103,16 +98,56 @@ p {
     color: inherit;
 }
 
-#menu-1 a:hover{
+#menu-1 a:hover {
     text-shadow: 2px 2px 3px #2c2a2a;
 }
 
-.active1{
+.active1 {
     text-shadow: 2px 2px 5px #2c2a2a;
 }
 
-/* Media queries */
+/* Intro to wellness */
+#intro-q {
+    padding-top: 15px;
+    width: 33%;
+    float: left;
+}
 
+#intro-a {
+    position: fixed;
+}
+
+#relax-img {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-background {
+    background: url(../images/pexels-pixabay-355863.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#emphasis {
+    
+}
+
+.underline {
+    text-decoration: underline solid;
+}
+
+/* Media queries */
 /* For large to medium screens sizes from 1112px wide and down */
 @media screen and (max-width: 1112px){
 
@@ -155,7 +190,7 @@ p {
         display: none;
     }
 
-    #menu-2{
+    #menu-2 {
         width:100%;
         text-align: center;
         display: inline-block;
@@ -175,11 +210,11 @@ p {
         margin-left: 10px;
     }
 
-    .active2{
+    .active2 {
         text-shadow: 2px 2px 3px #2c2a2a;
     }
 
-    #banner-text h2{
+    #banner-text h2 {
         font-size: 75%;
         margin: 0 auto;
     }
@@ -217,14 +252,13 @@ p {
 }
 
 /* For medium screens sizes from 425px wide and down */
-
 @media screen and (max-width: 425px){
     
     #banner-text {
         top: 4vh;
     }
 
-    #banner-text h2{
+    #banner-text h2 {
         font-size: 6vw;
         margin: 0 auto;
     }
