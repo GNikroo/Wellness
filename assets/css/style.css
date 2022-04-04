@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,200&display=swap');
 
-* {
-    margin: 0;
+
+*,*:before, *:after {
     padding: 0;
-    border:0;
+    margin: 0;
+    border: none;  
 }
 
 body {
@@ -40,8 +41,11 @@ body {
 #banner-text {
     text-transform: uppercase;
     letter-spacing: 3.5px;
+    margin: 0 0 30px;
+    padding: 10px;
+    top: 10vh;
+    position: relative;
     font-size: 260%;
-    margin: 0px 0 px 30px;
     text-align: center;
     background-color: rgba(250, 249, 246, .6);
 }
@@ -74,7 +78,7 @@ p {
 #menu-1{
     font-size: 110%;
     letter-spacing: 4px;
-    line-height: 75px;
+    line-height: 65px;
     float: left;
 }
 
@@ -90,11 +94,11 @@ p {
 }
 
 #menu-1 a:hover{
-    text-shadow: 2px 2px 3px #8837a1;
+    text-shadow: 2px 2px 3px #2c2a2a;;
 }
 
 .active1{
-    text-shadow: 2px 2px 3px #8837a1;
+    text-shadow: 2px 2px 3px #2c2a2a;;
 }
 
 /* Media queries */
@@ -126,16 +130,24 @@ p {
     }
     
     .active2{
-        text-shadow: 3px 3px 3px #9c48b6;
+        text-shadow: 2px 2px 3px #2c2a2a;
         color: inherit;
     }
 
-    #banner-text {
-        font-size: 200%;
+    #banner {
+        height: 35vh;
+    }
+
+    #banner-image {
+        position: absolute;
+    }
+
+    #banner-text h2{
+        font-size: 100%;
+        margin: 0 auto;
     }
     
-    
-    
+       
     
     #club-ethos{
         width: 65%;
@@ -194,10 +206,6 @@ p {
         margin-left: 10px;
     }
 
-    #banner-text {
-        font-size: 20px;
-    }
-
     #cover-text{
         left:0px;
     }
@@ -227,9 +235,12 @@ p {
     }
 }
 
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
+/* For medium screens sizes from 425px wide and down */
+
+@media screen and (max-width: 425px){
+    
+    #banner-text {
+        font-size: 6vw;
+        top: 45%;
+    } 
 }
