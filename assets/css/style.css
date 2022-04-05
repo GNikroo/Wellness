@@ -50,8 +50,11 @@ p {
 /* headings and banner*/
 #banner {
     background: url(../images/pexels-pixabay-459301.jpg) no-repeat center center;
-    height: 100px;
+    height: 200px;
+    width: 100%;
     background-color: #9d47b8cb;
+    overflow: hidden;
+    position: relative;
 }
 
 #banner-text {
@@ -61,21 +64,9 @@ p {
     padding: 10px;
     top: 13vh;
     position: relative;
-    font-size: 260%;
+    font-size: 200%;
     text-align: center;
     background-color: rgba(250, 249, 246, .6);
-}
-
-#banner {
-    height:300px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#banner-image {
-    height:100px;
-    width: 100%;
 }
 
 /* nav links */
@@ -165,9 +156,6 @@ p {
 }
 
 /* exercises page */
-/* 
-box breathing visual - When researching how to include a breathing exercise, I found animations on W3Schools. After becoming more familiar with the property I was advised to look into transform properties instead as a more efficient tool. I understand that animation uses more memory, however I felt I understood it better and so I have opted to use it and research transform for future use.
-*/
 .box-breathing {
     margin: 0 auto;
     width: 100px;
@@ -280,3 +268,4 @@ box breathing visual - When researching how to include a breathing exercise, I f
         font-size: 24px;
         letter-spacing: 5px;
     }
+}
