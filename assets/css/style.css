@@ -164,8 +164,30 @@ p {
     border-radius: 50%;
 }
 
-/* Media queries */
-/* For large to medium screens sizes from 1112px wide and down */
+/* exercises page */
+/* 
+box breathing visual - When researching how to include a breathing exercise, I found animations on W3Schools. After becoming more familiar with the property I was advised to look into transform properties instead as a more efficient tool. I understand that animation uses more memory, however I felt I understood it better and so I have opted to use it and research transform for future use.
+*/
+.box-breathing {
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8E8FE9;
+    border: none;
+    animation: box-breathing 16s infinite linear backwards;
+}
+  
+@keyframes box-breathing {
+    0% {width: 100px; height: 100px;}
+    25% {width: 100px; height: 100px;}
+    50% {width: 200px; height: 200px;}
+    75% {width: 200px; height: 200px;}
+    100% {width: 100px; height: 100px;}
+}
+
+/* media queries */
+/* for large to medium screens sizes from 1112px wide and down */
 @media screen and (max-width: 1112px){
 
     #banner {
