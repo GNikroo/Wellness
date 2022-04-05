@@ -125,14 +125,43 @@ p {
     margin: 0 auto;
 }
 
-.emphasis {
-    font-size: 24px;
-    text-align: center;
+#center-about {
+    width: 33%;
+    margin: 0 auto;
 }
 
 #lavishly {
     font-family: 'Lavishly Yours', cursive;
     font-size: 50px;
+}
+
+.emphasis {
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#relax-img {
+    width: 33%;
+    margin: 0 auto;
+}
+
+/* Intro Image */
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-image {
+    background: url("../images/pexels-pixabay-355863.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Media queries */
@@ -152,24 +181,12 @@ p {
         margin: 0 auto;
     }
     
-       
-    
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+    #relax-img{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
-
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-    }
-
-    
-    hr {
-        display: none;
-    }
-}
 
 /* For medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
@@ -211,37 +228,10 @@ p {
         margin: 0 auto;
     }
 
-
-
-
-    #cover-text{
-        left:0px;
+    .emphasis {
+        font-size: 30px;
+        letter-spacing: 3px;
     }
-
-    #club-ethos{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading{
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
-    }
-}
 
 /* For medium screens sizes from 425px wide and down */
 @media screen and (max-width: 425px){
@@ -269,5 +259,6 @@ p {
     }
 
     .emphasis {
+        font-size: 24px;
         letter-spacing: 5px;
     }
