@@ -15,7 +15,7 @@ body {
     color: #312e2efb;
 }
 
-h3 {
+h2 {
     text-decoration: underline solid #312e2efb;
     text-underline-offset: 10px;
     padding: 3px 30px 3px 25px;
@@ -60,13 +60,14 @@ p {
 #banner-text {
     text-transform: uppercase;
     letter-spacing: 3.5px;
-    margin: 0 0 30px;
-    padding: 10px;
-    top: 13vh;
+    margin: 0 auto;
+    padding: 10px 0;
     position: relative;
     font-size: 200%;
     text-align: center;
     background-color: rgba(250, 249, 246, .6);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* nav links */
@@ -104,7 +105,6 @@ p {
 #intro-q {
     padding-top: 15px;
     width: 100%;
-    float: left;
 }
 
 #intro-a {
@@ -178,25 +178,18 @@ p {
 /* for large to medium screens sizes from 1112px wide and down */
 @media screen and (max-width: 1112px){
 
-    #banner {
-        height: 35vh;
-    }
-
-    #banner-image {
-        position: absolute;
-    }
-
-    #banner-text h2{
+    #banner-text h1{
         font-size: 100%;
         margin: 0 auto;
     }
     
     #relax-img{
-        clear: both;
         width: 100%;
         float: left;
+        clear: both;
         padding: 0;
     }
+}
 
 /* For medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
@@ -229,11 +222,7 @@ p {
         text-shadow: 2px 2px 3px #2c2a2a;
     }
 
-    #banner-text {
-        top: 10vh;
-    }
-
-    #banner-text h2 {
+    #banner-text h1 {
         font-size: 75%;
         margin: 0 auto;
     }
@@ -242,25 +231,23 @@ p {
         font-size: 30px;
         letter-spacing: 3px;
     }
+}
 
-/* For medium screens sizes from 425px wide and down */
-@media screen and (max-width: 425px){
+/* For medium screens sizes from 470px wide and down */
+@media screen and (max-width: 470px){
     
     body {
         line-height: 45px;
         font-size: 16px;
     }
 
-    h3 {
+    h2 {
         font-size: 17px;
-    }
-
-    #banner-text {
-        top: 7vh;
     }
 
     #banner-text h2 {
         font-size: 6vw;
+        line-height: 25px;
         margin: 0 auto;
     }
 
