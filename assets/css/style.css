@@ -35,9 +35,9 @@ h2 {
   margin-right: 2%;
 }
 
-h3 a {
+h2,h3 a {
     text-decoration: none;
-    color: inherit;
+    color: #312e2efb;
 }
 
 .blog-about a {
@@ -193,12 +193,31 @@ p {
     margin-left: 2%;
     margin-right: 2%;
     padding: 15px 30px 15px 30px;
-    background-color: rgb(21, 160, 21);
     overflow: hidden;
     position: relative;
 }
 
-/* exercises page */
+/* exercise */
+#left {
+    background: url(../images/pexels-andrea-piacquadio-3771805.jpg)no-repeat center center;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#right {
+    background: url(../images/pexels-leandro-boogalu-1390403.jpg)no-repeat center center;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#center {
+    background: url(../images/pexels-mikhail-nilov-7500320.jpg)no-repeat center center;
+    width: 200px;
+    height: 200px;
+}
+
 .box-breathing {
     margin: 0 auto;
     width: 100px;
