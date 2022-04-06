@@ -94,11 +94,11 @@ p {
 }
 
 #menu-1 a:hover {
-    text-shadow: 2px 2px 3px #2c2a2a;
+    text-shadow: 2px 2px 3px #6b6a6a;
 }
 
 .active1 {
-    text-shadow: 2px 2px 5px #2c2a2a;
+    text-shadow: 2px 2px 5px #6b6a6a;
 }
 
 /* Intro to wellness */
@@ -219,7 +219,7 @@ p {
     }
 
     .active2 {
-        text-shadow: 2px 2px 3px #2c2a2a;
+        text-shadow: 2px 2px 3px #6b6a6a;
     }
 
     #banner-text h1 {

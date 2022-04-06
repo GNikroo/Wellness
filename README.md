@@ -1,1 +1,2 @@
+
 box breathing visual - When researching how to include a breathing exercise, I found animations on W3Schools. After becoming more familiar with the property I was advised to look into transform properties instead as a more efficient tool. I understand that animation uses more memory, however I felt I understood it better and so I have opted to use it and research transform for future use.
