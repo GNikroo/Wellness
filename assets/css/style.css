@@ -23,6 +23,30 @@ h2 {
     margin-right: 2%;
   }
 
+.blogs {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 3px 30px 3px 25px;
+  color: inherit;
+}
+
+.blogs h3 {
+      margin-left: 2%;
+  margin-right: 2%;
+}
+
+h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-about a {
+    text-decoration: underline;
+    color: #312e2efb;
+}
+
+
+
 p {
     line-height: 27px;
     text-align: justify;
