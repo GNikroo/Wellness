@@ -15,9 +15,8 @@ body {
     color: #312e2efb;
 }
 
-h2 {
+#intro-q h2,h3 {
     text-decoration: underline solid #312e2efb;
-    text-underline-offset: 10px;
     padding: 3px 30px 3px 25px;
     margin-left: 2%;
     margin-right: 2%;
@@ -37,6 +36,9 @@ h2 {
 
 h2,h3 a {
     text-decoration: none;
+    padding: 3px 30px 3px 25px;
+    margin-left: 2%;
+    margin-right: 2%;
     color: #312e2efb;
 }
 
@@ -54,6 +56,10 @@ p {
     margin-left: 2%;
     margin-right: 2%;
     padding: 15px 30px 15px 25px;
+}
+
+#decor-none a{
+    text-decoration: none;
 }
 
 .background {
@@ -131,7 +137,7 @@ p {
     width: 100%;
 }
 
-#intro-a {
+#wellness {
     position: fixed;
 }
 
@@ -165,7 +171,6 @@ p {
 #circle-container {
     width: 300px;
     height: 300px;
-
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
@@ -190,33 +195,59 @@ p {
     background: url("../images/pexels-engin-akyurt-1435735.jpg") no-repeat center center;
     height: 150px;
     width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
     padding: 15px 30px 15px 30px;
     overflow: hidden;
     position: relative;
 }
 
 /* exercise */
-#left {
-    background: url(../images/pexels-andrea-piacquadio-3771805.jpg)no-repeat center center;
-    width: 200px;
-    height: 200px;
-    float: left;
+#exercise {
+    height: 400px;
+    position: relative;
+    margin: 20px 0;
 }
 
-#right {
-    background: url(../images/pexels-leandro-boogalu-1390403.jpg)no-repeat center center;
+/* 
+#left {
+    position: relative;
+}
+
+#left div {
+    background: url(../images/pexels-andrea-piacquadio-3771805.jpg) no-repeat center center;
+    padding-top: 30px;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    float: left;
+    clear: both;
+} */
+/* 
+#right {
+    position: relative;
+}
+
+#right div {
+    background: url(../images/pexels-leandro-boogalu-1390403.jpg) no-repeat center center;
+    padding-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     float: right;
 }
 
-#center {
-    background: url(../images/pexels-mikhail-nilov-7500320.jpg)no-repeat center center;
+#center-container {
     width: 200px;
     height: 200px;
-}
+    border-radius: 50%;
+    margin: 0 auto;
+} */
+/* 
+#center-image {
+    background: url(../images/pexels-mikhail-nilov-7500320.jpg) no-repeat center center;
+    width: 100%
+    border-radius: 50%;
+} */
 
 .box-breathing {
     margin: 0 auto;
