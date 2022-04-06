@@ -156,9 +156,22 @@ p {
 }
 
 /* food for wellness */
+#banner2-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
 #banner2-food {
-    background-image: url(../images/pexels-ella-olsson-3026802.jpg);
-    height: 100%;
+    background: url("../images/pexels-ella-olsson-3026802.jpg") no-repeat center center;
+    height: 200px;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(21, 160, 21);
+    overflow: hidden;
+    position: relative;
 }
 
 /* exercises page */
