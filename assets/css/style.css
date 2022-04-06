@@ -163,8 +163,8 @@ p {
     display: flex;
 }
 #banner2-food {
-    background: url("../images/pexels-ella-olsson-3026802.jpg") no-repeat center center;
-    height: 200px;
+    background: url("../images/pexels-engin-akyurt-1435735.jpg") no-repeat center center;
+    height: 150px;
     width: 100%;
     margin-left: 2%;
     margin-right: 2%;
@@ -255,7 +255,14 @@ p {
         font-size: 30px;
         letter-spacing: 3px;
     }
+
+    #banner2-food {
+        background: url("../images/pexels-engin-akyurt-1435735Small.jpg") no-repeat center center;
+        height: 100px;
+     }
 }
+
+
 
 /* For medium screens sizes from 470px wide and down */
 @media screen and (max-width: 470px){
