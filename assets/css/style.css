@@ -15,6 +15,10 @@ body {
     color: #312e2efb;
 }
 
+footer {
+    padding-top: 30px;
+}
+
 #underline h2 {
     text-decoration: underline solid #312e2efb;
     padding: 15px 30px 15px;
@@ -202,17 +206,37 @@ p {
     position: relative;
 }
 
+/* holistic exercise */
+#exercise {
+    min-height: 250px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.circlular {
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* footer */
+#widget {
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    line-height: 35px;
+    height: 100%;
+    width: 100%;
+    padding: 15px 30px 15px;
+}
+
+/* food.html */
 ul a {
     text-decoration: none;
     color: #312e2efb;
 }
 
-/* exercise */
-#exercise {
-    height: 400px;
-    position: relative;
-    margin: 20px 0;
-}
+/* exercise.html */
 
 .box-breathing {
     margin: 0 auto;
@@ -230,17 +254,6 @@ ul a {
     50% {width: 200px; height: 200px;}
     75% {width: 200px; height: 200px;}
     100% {width: 100px; height: 100px;}
-}
-
-/* footer */
-#widget {
-    font-family: 'Parisienne', cursive;
-    font-size: 25px;
-    line-height: 35px;
-    height: 100%;
-    width: 100%;
-    padding: 15px 30px 15px;
-
 }
 
 /* media queries */
@@ -262,7 +275,6 @@ ul a {
 
 /* For medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
-
 
     h2 {
         font-size: 17px;
@@ -303,7 +315,9 @@ ul a {
     #banner2-food {
         background: url("../images/pexels-engin-akyurt-1435735Small.jpg") no-repeat center center;
         height: 100px;
-     }
+    }
+
+
 }
 
 /* For medium screens sizes from 470px wide and down */
