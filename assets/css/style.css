@@ -15,6 +15,15 @@ body {
     color: #312e2efb;
 }
 
+p {
+    line-height: 27px;
+    text-align: left;
+    clear: both;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px 30px 15px;
+}
+
 footer {
     padding-top: 30px;
 }
@@ -22,18 +31,6 @@ footer {
 #underline h2 {
     text-decoration: underline solid #312e2efb;
     padding: 15px 30px 15px;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-.blogs {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 15px 30px 15px;
-    color: inherit;
-}
-
-.blogs h3 {
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -47,39 +44,6 @@ footer {
 .h2-links {
     text-decoration: underline solid #312e2efb;
     color: #312e2efb;
-}
-
-.blog-about a {
-    text-decoration: underline;
-    color: #312e2efb;
-}
-
-p {
-    line-height: 27px;
-    text-align: left;
-    clear: both;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 15px 30px 15px;
-}
-
-#decor-none a{
-    text-decoration: none;
-}
-
-.background {
-    position: relative;
-    height: 100vh;
-}
-
-.background:before {
-    background: url("../images/pexels-arın-turkay-1694980.jpg") center / cover;
-    content: '';
-    position: fixed;
-    left: 0; right: 0; top: 0; bottom: 0;
-    z-index: -1;
-    opacity: .6;
-    filter: blur(3px) hue-rotate(75deg);
 }
 
 /* headings and banner*/
@@ -136,29 +100,17 @@ p {
     text-shadow: 2px 2px 5px #6b6a6a;
 }
 
-/* intro to wellness */
-#intro-q {
-    padding-top: 15px;
-    width: 100%;
-}
-
+/* what is wellness */
 #wellness {
     position: fixed;
 }
 
 #relax-img {
-    width: 33%;
+    width: 300px;
     margin: 0 auto;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-#parisienne {
-    font-family: 'Parisienne', cursive;
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
 }
 
 .emphasis {
@@ -167,12 +119,12 @@ p {
     letter-spacing: 3px;
 }
 
-#relax-img {
-    width: 33%;
-    margin: 0 auto;
+#parisienne {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
 }
 
-/* intro image */
+/* What is wellness image */
 #circle-container {
     width: 300px;
     height: 300px;
@@ -212,19 +164,19 @@ p {
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .circlular {
     border-radius: 50%;
-    margin: auto;
+    margin: 1%;
 }
 
 /* footer */
 #widget {
     font-family: 'Parisienne', cursive;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 23px;
+    line-height: 33px;
     height: 100%;
     width: 100%;
     padding: 15px 30px 15px;
@@ -236,8 +188,24 @@ ul a {
     color: #312e2efb;
 }
 
-/* exercise.html */
+.blogs {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px 30px 15px;
+    color: inherit;
+}
 
+.blogs h3 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.blog-about a {
+    text-decoration: underline;
+    color: #312e2efb;
+}
+
+/* exercise.html */
 .box-breathing {
     margin: 0 auto;
     width: 100px;
@@ -257,23 +225,7 @@ ul a {
 }
 
 /* media queries */
-/* for large to medium screens sizes from 1112px wide and down */
-@media screen and (max-width: 1112px){
-
-    #banner-text h1{
-        font-size: 100%;
-        margin: 0 auto;
-    }
-
-    #relax-img{
-        width: 100%;
-        float: left;
-        clear: both;
-        padding: 0;
-    }
-}
-
-/* For medium screens sizes from 768px wide and down */
+/* for medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
 
     h2 {
@@ -316,20 +268,14 @@ ul a {
         background: url("../images/pexels-engin-akyurt-1435735Small.jpg") no-repeat center center;
         height: 100px;
     }
-
-
 }
 
-/* For medium screens sizes from 470px wide and down */
+/* for medium screens sizes from 470px wide and down */
 @media screen and (max-width: 470px){
 
     body {
         line-height: 45px;
         font-size: 16px;
-    }
-
-    h2 {
-        font-size: 17px;
     }
 
     .emphasis {
