@@ -317,20 +317,14 @@ ul a {
         width:100%;
         text-align: center;
         display: inline-block;
-        font-size: 14px;
-        padding: 5px;
+        margin: 10px;
         letter-spacing: 1.5em;
-        line-height: 5vw;
-    }
-
-    #menu-2 ul {
-        text-align: right;
+        line-height: 41px;
     }
 
     #menu-2 li {
         display: inline-block;
         list-style-type: none;
-        margin-left: 10px;
     }
 
     .active2 {
