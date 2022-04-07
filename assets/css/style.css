@@ -214,47 +214,6 @@ ul a {
     margin: 20px 0;
 }
 
-/*
-#left {
-    position: relative;
-}
-
-#left div {
-    background: url(../images/pexels-andrea-piacquadio-3771805.jpg) no-repeat center center;
-    padding-top: 30px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    float: left;
-    clear: both;
-} */
-/*
-#right {
-    position: relative;
-}
-
-#right div {
-    background: url(../images/pexels-leandro-boogalu-1390403.jpg) no-repeat center center;
-    padding-top: 30px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    float: right;
-}
-
-#center-container {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
-} */
-/*
-#center-image {
-    background: url(../images/pexels-mikhail-nilov-7500320.jpg) no-repeat center center;
-    width: 100%
-    border-radius: 50%;
-} */
-
 .box-breathing {
     margin: 0 auto;
     width: 100px;
