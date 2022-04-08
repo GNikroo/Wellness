@@ -231,6 +231,67 @@ ul a {
     line-height: 2.5rem;
 }
 
+/* <!-- WORK IN PROGRESS --> */
+/* exercise.html */
+.breathing-container {
+    height: 2.5rem;
+}
+
+#box-breathing {
+    margin: 0 auto;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #8E8FE9;
+    border: none;
+    animation: box-breathing 16s infinite linear backwards;
+}
+
+@keyframes box-breathing {
+    0% {width: 10rem; height: 10rem;}
+    25% {width: 10rem; height: 10rem;}
+    50% {width: 20rem; height: 20rem;}
+    75% {width: 20rem; height: 20rem;}
+    100% {width: 10rem; height: 10rem;}
+}
+
+.text-container {
+    color: white;
+
+}
+
+#text-container {
+    color: white;
+    text-align: center;
+    padding-top: 2.5rem;
+    font-weight: 600;
+    animation: text-container 16s infinite linear backwards;
+}
+
+@keyframes text-container {
+    0% {opacity: zero;}
+    25% {content: "hold";}
+    50% {opacity: zero;}
+    75% {content: "hold";}
+    100% {opacity: zero;}
+}
+
+@keyframes text-container {
+    0% {opacity: zero;}
+    25% {content: "hold";}
+    50% {content: "inhale";}
+    75% {content: "hold";}
+    100% {content: "exhale";}
+
+}@keyframes text-container {
+    0% {opacity: zero;}
+    25% {content: "hold";}
+    50% {content: "inhale";}
+    75% {content: "hold";}
+    100% {content: "exhale";}
+}
+/* <!-- WORK IN PROGRESS --> */
+
 /* media queries */
 /* for medium screens sizes from 1032px wide and down */
 @media screen and (max-width: 1032px){
