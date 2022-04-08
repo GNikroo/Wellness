@@ -7,11 +7,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 65px;
+    font-size: 1.8rem;
+    line-height: 6.5rem;
     color: #312e2efb;
 }
 
@@ -20,39 +24,46 @@ h1, h2, h3 {
 }
 
 p {
-    line-height: 27px;
+    line-height: 2.7rem;
     text-align: left;
     clear: both;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 15px 30px 15px;
+    padding: 1.5rem 3rem 1.5rem;
 }
 
 footer {
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
-#underline h2 {
+.underline h2,h3 {
     text-decoration: underline solid #3d405a;
-    padding: 15px 30px 15px;
+    text-align: center;
+    padding: 1.5rem 3rem 1.5rem;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .h2-container {
-    padding: 15px 30px 15px;
+    padding: 1.5rem 3rem 1.5rem;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .h2-links {
     text-decoration: underline solid #3d405a;
+    text-align: center;
     color: #3d405a;
+}
+
+.recs a {
+    text-decoration: underline;
+    color: #312e2efb;
 }
 
 /* headings and banner*/
 #banner1-container {
-    height: 200px;
+    height: 20rem;
     width: 100%;
     background-color: #e9a172;
     position: relative;
@@ -70,13 +81,13 @@ footer {
 
 #banner1-text {
     text-transform: uppercase;
-    letter-spacing: 3.5px;
+    letter-spacing: 0.35rem;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 1rem 0;
     position: relative;
-    font-size: 200%;
+    font-size: 4rem;
     text-align: center;
-    background-color: rgba(250, 249, 246, .6);
+    background-color: rgba(250, 249, 246, 0.6);
     top: 50%;
     transform: translateY(-50%);
 }
@@ -88,15 +99,15 @@ footer {
 
 #menu-1 {
     font-size: 110%;
-    letter-spacing: 4px;
-    line-height: 65px;
+    letter-spacing: 0.4rem;
+    line-height: 6.5rem;
     float: left;
 }
 
 #menu-1 li {
     float: left;
     list-style-type: none;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 
 #menu-1 a {
@@ -105,11 +116,11 @@ footer {
 }
 
 #menu-1 a:hover {
-    text-shadow: 2px 2px 3px #6b6a6a;
+    text-shadow: 0.2rem 0.2rem 0.3rem #6b6a6a;
 }
 
 .active1 {
-    text-shadow: 2px 2px 5px #6b6a6a;
+    text-shadow: 0.2rem 0.2rem 0.5rem #6b6a6a;
 }
 
 /* what is wellness */
@@ -118,33 +129,31 @@ footer {
 }
 
 #relax-img {
-    width: 300px;
+    width: 30rem;
     margin: 0 auto;
-    padding: 50px 0 20px;
+    padding: 5rem 0 2rem;
     display: flex;
     justify-content: center;
     align-self: start;
 }
 
 .emphasis {
-    font-size: 27px;
+    font-size: 2.7rem;
     text-align: center;
-    letter-spacing: 3px;
-    padding-bottom: 50px;
+    letter-spacing: 0.3rem;
+    padding-bottom: 5rem;
 }
 
 #parisienne {
     font-family: 'Parisienne', cursive;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 /* What is wellness image */
 #circle-container {
     width: 300px;
     height: 300px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
+    border-width: 10px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -164,17 +173,17 @@ footer {
 }
 #banner2-food {
     background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
-    height: 150px;
+    height: 15rem;
     width: 100%;
     margin: 2%;
-    padding: 15px 30px 15px;
+    padding: 1.5rem 3rem 1.5rem;
     overflow: hidden;
     position: relative;
 }
 
 /* holistic exercise */
 #exercise {
-    min-height: 250px;
+    min-height: 25rem;
     position: relative;
     display: flex;
     flex-flow: row wrap;
@@ -189,61 +198,52 @@ footer {
 /* footer */
 #widget {
     background-color: #e9a172;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     height: 100%;
     width: 100%;
-    padding: 15px 30px 15px;
+    padding: 1.5rem 3rem 1.5rem;
 }
 
 /* food.html */
+ul {
+    padding: 0;
+}
+
 ul a {
     text-decoration: none;
     color: #312e2efb;
 }
 
+.icon-padding {
+    padding-right: 1.5rem;
+}
+
 .blogs {
     text-decoration: none;
     list-style-type: none;
-    padding: 15px 30px 15px;
     color: inherit;
 }
 
 .blogs h3 {
     margin-left: 2%;
     margin-right: 2%;
-}
-
-.blog-about a {
-    text-decoration: underline;
-    color: #312e2efb;
-}
-
-/* exercise.html */
-.box-breathing {
-    margin: 0 auto;
-    width: 100px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #8E8FE9;
-    border: none;
-    animation: box-breathing 16s infinite linear backwards;
-}
-
-@keyframes box-breathing {
-    0% {width: 100px; height: 100px;}
-    25% {width: 100px; height: 100px;}
-    50% {width: 200px; height: 200px;}
-    75% {width: 200px; height: 200px;}
-    100% {width: 100px; height: 100px;}
+    line-height: 2.5rem;
 }
 
 /* media queries */
+/* for medium screens sizes from 1032px wide and down */
+@media screen and (max-width: 1032px){
+    #banner1-text {
+        font-size: 2rem;
+}
+
+
 /* for medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
 
     h2 {
-        font-size: 17px;
+        font-size: 2rem;
     }
 
     #menu-1 {
@@ -254,9 +254,9 @@ ul a {
         width:100%;
         text-align: center;
         display: inline-block;
-        margin: 10px;
+        margin: 1rem;
         letter-spacing: 1.5em;
-        line-height: 41px;
+        line-height: 4.1rem;
     }
 
     #menu-2 li {
@@ -265,36 +265,17 @@ ul a {
     }
 
     .active2 {
-        text-shadow: 2px 2px 3px #6b6a6a;
+        text-shadow: 0.2rem 0.2rem 0.3rem #6b6a6a;
     }
 
-    #banner-text h1 {
-        color: inherit;
-        font-size: 75%;
-        margin: 0 auto;
-    }
-
-    .emphasis {
-        font-size: 30px;
-        letter-spacing: 3px;
-    }
-
-    #banner2-food {
-        background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
-        height: 100px;
-    }
-}
-
-/* for medium screens sizes from 470px wide and down */
-@media screen and (max-width: 470px){
+/* for medium screens sizes from 559px wide and down */
+@media screen and (max-width: 559px){
 
     body {
-        line-height: 45px;
-        font-size: 16px;
+        /* line-height: 4.5rem; */
+        font-size: 1.6rem;
     }
 
-    .emphasis {
-        font-size: 24px;
-        letter-spacing: 5px;
-    }
+    #banner1-text {
+        font-size: 1.5rem;
 }
