@@ -15,6 +15,10 @@ body {
     color: #312e2efb;
 }
 
+h1, h2, h3 {
+    color: #3d405a;
+}
+
 p {
     line-height: 27px;
     text-align: left;
@@ -29,7 +33,7 @@ footer {
 }
 
 #underline h2 {
-    text-decoration: underline solid #312e2efb;
+    text-decoration: underline solid #3d405a;
     padding: 15px 30px 15px;
     margin-left: 2%;
     margin-right: 2%;
@@ -42,21 +46,29 @@ footer {
 }
 
 .h2-links {
-    text-decoration: underline solid #312e2efb;
-    color: #312e2efb;
+    text-decoration: underline solid #3d405a;
+    color: #3d405a;
 }
 
 /* headings and banner*/
-#banner {
-    background: url(../images/pexels-pixabay-459301.jpg) no-repeat center center;
+#banner1-container {
     height: 200px;
     width: 100%;
-    background-color: #9d47b8cb;
-    overflow: hidden;
+    background-color: #e9a172;
     position: relative;
+    display: flex;
 }
 
-#banner-text {
+#banner1 {
+    background: url(../images/pexels-césar-gaviria-1027467.jpg) no-repeat center center;
+    height: 100%;
+    filter: brightness(1.2);
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+}
+
+#banner1-text {
     text-transform: uppercase;
     letter-spacing: 3.5px;
     margin: 0 auto;
@@ -108,6 +120,7 @@ footer {
 #relax-img {
     width: 300px;
     margin: 0 auto;
+    padding: 50px 0 20px;
     display: flex;
     justify-content: center;
     align-self: start;
@@ -117,6 +130,7 @@ footer {
     font-size: 27px;
     text-align: center;
     letter-spacing: 3px;
+    padding-bottom: 50px;
 }
 
 #parisienne {
@@ -149,7 +163,7 @@ footer {
     display: flex;
 }
 #banner2-food {
-    background: url("../images/pexels-engin-akyurt-1435735.jpg") no-repeat center center;
+    background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
     height: 150px;
     width: 100%;
     margin: 2%;
@@ -174,9 +188,9 @@ footer {
 
 /* footer */
 #widget {
-    font-family: 'Parisienne', cursive;
-    font-size: 23px;
-    line-height: 33px;
+    background-color: #e9a172;
+    font-size: 15px;
+    line-height: 20px;
     height: 100%;
     width: 100%;
     padding: 15px 30px 15px;
@@ -255,6 +269,7 @@ ul a {
     }
 
     #banner-text h1 {
+        color: inherit;
         font-size: 75%;
         margin: 0 auto;
     }
@@ -265,7 +280,7 @@ ul a {
     }
 
     #banner2-food {
-        background: url("../images/pexels-engin-akyurt-1435735Small.jpg") no-repeat center center;
+        background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
         height: 100px;
     }
 }
