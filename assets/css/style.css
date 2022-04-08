@@ -234,17 +234,69 @@ ul a {
 /* <!-- WORK IN PROGRESS --> */
 /* exercise.html */
 .breathing-container {
-    height: 2.5rem;
+    padding-top: 0.5rem;
+    height: 19.5rem;
 }
 
 #box-breathing {
     margin: 0 auto;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
     width: 10rem;
     height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     border-radius: 50%;
     background-color: #8E8FE9;
     border: none;
     animation: box-breathing 16s infinite linear backwards;
+}
+
+#text {
+    animation: text 16s infinite linear backwards;
+}
+
+#text::after {
+    content: "inhale";
+    position: absolute;
+    animation: text-after 16s infinite linear backwards;
+}
+
+@keyframes text {
+    0% {opacity: 1; visibility: visible;}
+    20% {opacity: 1; visibility: visible;}
+    23% {opacity: 0; visibility: hidden;}
+    49% {opacity: 0; visibility: hidden;}
+    50% {opacity: 1; visibility: visible;}
+    74% {opacity: 1; visibility: visible;}
+    75% {opacity: 0; visibility: hidden;}
+    100% {opacity: 0; visibility: hidden;}
+}
+
+@keyframes text-after {
+    0% {opacity: 0; visibility: hidden;}
+    24% {opacity: 0; visibility: hidden;}
+    25% {opacity: 1; visibility: visible;}
+    49% {opacity: 1; visibility: visible;}
+    50% {opacity: 0; visibility: hidden;}
+    74% {opacity: 0; visibility: hidden;}
+    75% {opacity: 0; visibility: hidden;}
+    100% {opacity: 0; visibility: hidden;}
+}
+
+@keyframes text-before {
+    0% {opacity: 0;}
+    24% {opacity: 0;}
+    25% {opacity: 0;}
+    49% {opacity: 0;}
+    50% {opacity: 0;}
+    74% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
 }
 
 @keyframes box-breathing {
@@ -255,41 +307,37 @@ ul a {
     100% {width: 10rem; height: 10rem;}
 }
 
-.text-container {
-    color: white;
-
-}
-
 #text-container {
     color: white;
     text-align: center;
     padding-top: 2.5rem;
     font-weight: 600;
-    animation: text-container 16s infinite linear backwards;
+    content: "hold";
+    /* animation: text-container 16s infinite linear backwards; */
 }
 
 @keyframes text-container {
     0% {opacity: zero;}
-    25% {content: "hold";}
+    25% {opacity: 1; content: "hold";}
     50% {opacity: zero;}
-    75% {content: "hold";}
+    75% {opacity: 1; content: "hold";}
     100% {opacity: zero;}
 }
-
+/* 
 @keyframes text-container {
     0% {opacity: zero;}
-    25% {content: "hold";}
-    50% {content: "inhale";}
-    75% {content: "hold";}
-    100% {content: "exhale";}
+    25% {opacity: 1; content: "hold";}
+    50% {opacity: 1; content: "inhale";}
+    75% {opacity: 1; content: "hold";}
+    100% {opacity: 1; content: "exhale";}
 
 }@keyframes text-container {
     0% {opacity: zero;}
-    25% {content: "hold";}
-    50% {content: "inhale";}
-    75% {content: "hold";}
-    100% {content: "exhale";}
-}
+    25% {opacity: 1; content: "hold";}
+    50% {opacity: 1; content: "inhale";}
+    75% {opacity: 1; content: "hold";}
+    100% {opacity: 1; content: "exhale";}
+} */
 /* <!-- WORK IN PROGRESS --> */
 
 /* media queries */
