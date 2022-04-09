@@ -33,7 +33,7 @@ p {
 }
 
 footer {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .underline h2,h3 {
@@ -82,11 +82,14 @@ footer {
 #banner1-text {
     text-transform: uppercase;
     letter-spacing: 0.35rem;
+    height: 15rem;
     margin: 0 auto;
-    padding: 1rem 0;
     position: relative;
     font-size: 4rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(250, 249, 246, 0.6);
     top: 50%;
     transform: translateY(-50%);
@@ -256,49 +259,6 @@ ul a {
     animation: box-breathing 16s infinite linear backwards;
 }
 
-#text {
-    animation: text 16s infinite linear backwards;
-}
-
-#text::after {
-    content: "inhale";
-    position: absolute;
-    animation: text-after 16s infinite linear backwards;
-}
-
-@keyframes text {
-    0% {opacity: 1; visibility: visible;}
-    20% {opacity: 1; visibility: visible;}
-    23% {opacity: 0; visibility: hidden;}
-    49% {opacity: 0; visibility: hidden;}
-    50% {opacity: 1; visibility: visible;}
-    74% {opacity: 1; visibility: visible;}
-    75% {opacity: 0; visibility: hidden;}
-    100% {opacity: 0; visibility: hidden;}
-}
-
-@keyframes text-after {
-    0% {opacity: 0; visibility: hidden;}
-    24% {opacity: 0; visibility: hidden;}
-    25% {opacity: 1; visibility: visible;}
-    49% {opacity: 1; visibility: visible;}
-    50% {opacity: 0; visibility: hidden;}
-    74% {opacity: 0; visibility: hidden;}
-    75% {opacity: 0; visibility: hidden;}
-    100% {opacity: 0; visibility: hidden;}
-}
-
-@keyframes text-before {
-    0% {opacity: 0;}
-    24% {opacity: 0;}
-    25% {opacity: 0;}
-    49% {opacity: 0;}
-    50% {opacity: 0;}
-    74% {opacity: 0;}
-    75% {opacity: 1;}
-    100% {opacity: 1;}
-}
-
 @keyframes box-breathing {
     0% {width: 10rem; height: 10rem;}
     25% {width: 10rem; height: 10rem;}
@@ -307,45 +267,14 @@ ul a {
     100% {width: 10rem; height: 10rem;}
 }
 
-#text-container {
-    color: white;
-    text-align: center;
-    padding-top: 2.5rem;
-    font-weight: 600;
-    content: "hold";
-    /* animation: text-container 16s infinite linear backwards; */
-}
-
-@keyframes text-container {
-    0% {opacity: zero;}
-    25% {opacity: 1; content: "hold";}
-    50% {opacity: zero;}
-    75% {opacity: 1; content: "hold";}
-    100% {opacity: zero;}
-}
-/* 
-@keyframes text-container {
-    0% {opacity: zero;}
-    25% {opacity: 1; content: "hold";}
-    50% {opacity: 1; content: "inhale";}
-    75% {opacity: 1; content: "hold";}
-    100% {opacity: 1; content: "exhale";}
-
-}@keyframes text-container {
-    0% {opacity: zero;}
-    25% {opacity: 1; content: "hold";}
-    50% {opacity: 1; content: "inhale";}
-    75% {opacity: 1; content: "hold";}
-    100% {opacity: 1; content: "exhale";}
-} */
-/* <!-- WORK IN PROGRESS --> */
-
 /* media queries */
 /* for medium screens sizes from 1032px wide and down */
 @media screen and (max-width: 1032px){
     #banner1-text {
         font-size: 2rem;
+    }
 }
+
 
 
 /* for medium screens sizes from 768px wide and down */
@@ -381,9 +310,18 @@ ul a {
 @media screen and (max-width: 559px){
 
     body {
-        /* line-height: 4.5rem; */
         font-size: 1.6rem;
     }
+
+    #banner1-text {
+        font-size: 2rem;
+}
+
+.underline h2,h3 {
+    text-align: left;
+
+/* for medium screens sizes from 344px wide and down */
+@media screen and (max-width: 344px){
 
     #banner1-text {
         font-size: 1.5rem;
