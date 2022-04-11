@@ -2,9 +2,9 @@
 
 
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 html {
@@ -12,48 +12,43 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
     font-size: 1.8rem;
     line-height: 6.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     color: #312e2efb;
 }
 
-h1, h2, h3 {
+h1 {
     color: #3d405a;
 }
 
+h2, h3{
+    margin: 0 2%;
+    padding: 1.5rem 3rem 1.5rem;
+    text-align: center;
+}
+
 p {
+    margin: 0 2%;
+    padding: 1.5rem 3rem 1.5rem;
     line-height: 2.7rem;
     text-align: left;
-    clear: both;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 1.5rem 3rem 1.5rem;
 }
 
 footer {
     padding-top: 5rem;
 }
 
-.underline h2,h3 {
-    text-decoration: underline solid #3d405a;
-    text-align: center;
-    padding: 1.5rem 3rem 1.5rem;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
 .h2-container {
+    margin: 0 2%;
     padding: 1.5rem 3rem 1.5rem;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .h2-links {
     text-decoration: underline solid #3d405a;
     text-align: center;
-    color: #3d405a;
+    color: inherit;
 }
 
 .recs a {
@@ -63,36 +58,36 @@ footer {
 
 /* headings and banner*/
 #banner1-container {
-    height: 20rem;
-    width: 100%;
-    background-color: #e9a172;
     position: relative;
     display: flex;
+    width: 100%;
+    height: 20rem;
+    background-color: #e9a172;
 }
 
 #banner1 {
-    background: url(../images/pexels-césar-gaviria-1027467.jpg) no-repeat center center;
-    height: 100%;
-    filter: brightness(1.2);
-    overflow: hidden;
     position: relative;
     flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    background: url(../images/pexels-césar-gaviria-1027467.jpg) no-repeat center center;
+    filter: brightness(1.2);
 }
 
 #banner1-text {
-    text-transform: uppercase;
-    letter-spacing: 0.35rem;
-    height: 15rem;
-    margin: 0 auto;
     position: relative;
-    font-size: 4rem;
-    text-align: center;
-    display: flex;
+    top: 50%;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(250, 249, 246, 0.6);
-    top: 50%;
+    display: flex;
     transform: translateY(-50%);
+    margin: 0 auto;
+    height: 15rem;
+    background-color: rgba(250, 249, 246, 0.6);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
 }
 
 /* nav links */
@@ -101,16 +96,16 @@ footer {
 }
 
 #menu-1 {
-    font-size: 110%;
-    letter-spacing: 0.4rem;
-    line-height: 6.5rem;
     float: left;
+    font-size: 110%;
+    line-height: 6.5rem;
+    letter-spacing: 0.4rem;
 }
 
 #menu-1 li {
     float: left;
-    list-style-type: none;
     margin-left: 3rem;
+    list-style-type: none;
 }
 
 #menu-1 a {
@@ -141,71 +136,72 @@ footer {
 }
 
 .emphasis {
+    padding-bottom: 5rem;
     font-size: 2.7rem;
     text-align: center;
     letter-spacing: 0.3rem;
-    padding-bottom: 5rem;
 }
 
 #parisienne {
-    font-family: 'Parisienne', cursive;
     font-size: 5rem;
+    font-family: 'Parisienne', cursive;
 }
 
 /* What is wellness image */
 #circle-container {
-    width: 300px;
-    height: 300px;
+    margin: 0 auto;
     border-width: 10px;
     border-radius: 50%;
-    margin: 0 auto;
+    width: 300px;
+    height: 300px;
 }
 
 #circle-image {
-    background: url("../images/pexels-pixabay-355863.jpg") no-repeat center center;
-    height: 100%;
     border-radius: 50%;
+    height: 100%;
+    background: url("../images/pexels-pixabay-355863.jpg") no-repeat center center;
 }
 
 /* food for wellness */
 #banner2-container {
-    width: 100%;
+    display: flex;
     position: relative;
     margin: 0 auto;
-    display: flex;
-}
-#banner2-food {
-    background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
-    height: 15rem;
     width: 100%;
+}
+
+#banner2-food {
+    position: relative;
+    overflow: hidden;
     margin: 2%;
     padding: 1.5rem 3rem 1.5rem;
-    overflow: hidden;
-    position: relative;
+    height: 15rem;
+    width: 100%;
+    background: url("../images/pexels-freestocksorg-1002778.jpg") no-repeat center center;
 }
 
 /* holistic exercise */
 #exercise {
-    min-height: 25rem;
     position: relative;
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    display: flex;
+    min-height: 25rem;
 }
 
 .circlular {
-    border-radius: 50%;
     margin: 1%;
+    border-radius: 50%;
 }
 
 /* footer */
 .quotes {
+    padding: 1.5rem 3rem 1.5rem;
+    width: 100%;
+    height: 100%;
     background-color: #ffd8057a;
     font-size: 2rem;
     line-height: 2.5rem;
-    height: 100%;
-    width: 100%;
-    padding: 1.5rem 3rem 1.5rem;
 }
 
 /* food.html */
@@ -225,16 +221,13 @@ ul a {
 .blogs {
     text-decoration: none;
     list-style-type: none;
-    color: inherit;
 }
 
 .blogs h3 {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2%;
     line-height: 2.5rem;
 }
 
-/* <!-- WORK IN PROGRESS --> */
 /* exercise.html */
 .breathing-container {
     padding-top: 0.5rem;
@@ -242,21 +235,21 @@ ul a {
 }
 
 #box-breathing {
-    margin: 0 auto;
-    color: white;
-    font-weight: 600;
-    font-size: 2rem;
-    width: 10rem;
-    height: 5rem;
-    text-align: center;
-    display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    border-radius: 50%;
-    background-color: #8E8FE9;
-    border: none;
+    display: flex;
     animation: box-breathing 16s infinite linear backwards;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50%;
+    width: 10rem;
+    height: 5rem;
+    background-color: #8E8FE9;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
 }
 
 @keyframes box-breathing {
@@ -291,12 +284,12 @@ ul a {
     }
 
     #menu-2 {
-        width:100%;
-        text-align: center;
         display: inline-block;
         margin: 1rem;
-        letter-spacing: 1.5em;
+        width:100%;
         line-height: 4.1rem;
+        text-align: center;
+        letter-spacing: 1.5em;
     }
 
     #menu-2 li {
