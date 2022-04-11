@@ -35,11 +35,6 @@ html {
 
 Freecodecamp has a great page on how to write up a meaningful README.md that I've used as reference so hopefully I've done it justice!
 
-The footer widget is from wordsmith.org and is a code provided by them for free to embed in your site. I used this as I wanted to have something that automatically generated inspirational quotes that help with mindfulness and every tutorial I have found on how to do that needed some knowledge of JavaScript. As I don't have any yet, this was a compromise I made.
-```html
-<script src="https://wordsmith.org/words/quote.js" type="text/javascript"></script>
-```
-
 The first few iterations of this website included code from a project I built while following along with the tutorial at Code Institute. It was not my code but I used it for both reference and inspiration (sometimes even as stand-in code) as this project is my very first from the ground up. Because I have never worked with git, the idea of committing and pushing code was very new and I didn’t really think about what it was exactly I was pushing. At some point, you might see that I commented-out the code as I realized this unrelated information would show up in the history. I immediately remembered you should not push commented-out code so I removed it completely and it is now missing. Of course, I understand this is not best practice and have taken it as a learning moment that will influence what I commit/push in the future.
 
 I hope you enjoy my project!
