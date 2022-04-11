@@ -5,7 +5,7 @@ I wanted to create a website focused on wellness as it is a very recent and pers
 
 <img src="assets/images/internal-links.png" alt="screenshot of internal links on homepage">
 
-From the homepage, there are several ways to navigate to the two other pages including the navigation bar and the header links.
+From the homepage, there are several ways to navigate to the two other pages including the navigation bar and the heading links.
 
 <img src="assets/images/nav-mobile.png" alt="screenshot of  navigation links for smaller screen size">
 
@@ -15,6 +15,8 @@ The navigation bar has a responsive design which includes icons instead of text 
 <img src="assets/images/box-breathing.png" alt="screenshot of box-breathing section">
 
 When researching how to include a breathing exercise, I found animations on W3Schools. After becoming more familiar with the property I was advised to look into transform properties instead as a more efficient tool. I understand that animation uses more memory, however I felt I understood it better and so I have opted to use it and research transform for future use.
+
+I did want to include the animation in the final project as I believe having a visual aid when learning to practice breathing techniques is invaluable for the user.
 
 ### Blog Recommendations
 <img src="assets/images/blog-recs.png" alt="screenshot of blog recommendations">
@@ -26,7 +28,7 @@ W3Schools has been invaluable in expanding on topics I knew as well as having no
 
 CSS Tricks offered a very in depth description of flex including visual aides which really solidified my understanding.
 
-Jonas Schmedtmann on Udemy offers a course on CSS that has been the perfect supplement to Code Institute and his desctriptions of how to use universal and html selectors helped me refine my code. I finally understand rem and how important of a tool it actual is in responsive design.
+Jonas Schmedtmann on Udemy offers a course on CSS that has been the perfect supplement to Code Institute and his desctriptions of how to use universal and html selectors helped me refine my code. I finally understand rem and how important of a tool it actual is in responsive design. Below is a snippet of code from the course I have implemented in my own code.
 ```css
 html {
     font-size: 62.5%;
