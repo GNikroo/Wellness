@@ -1,7 +1,7 @@
 # Project 1 - Wellness
-<img src="assets/images/home.png" alt="screenshot of homepage">
+<img src="assets/images/responsive.png" alt="screenshot of various screens showing responsiveness">
 
-I wanted to create a website focused on wellness as it is a very recent and personal interest of mine. I have learned some self-care tips and wanted to compile them in a single place for anyone who would be interested in the topic. In order to share the information in an eye-catching way, I did need to go beyong the HTML and CSS essentials module I have completed at Code Institute. Mainly, I learned a lot about the use of flexboxes and animation. I've also discovered the importance of setting universal parameters and html font size (rem is my favorite thing at the moment). I used Gitpod to write and deploy the code directly onto main.
+I wanted to create a website focused on wellness as it is a very recent and personal interest of mine. I have learned some self-care tips and wanted to compile them in a single place for anyone who would be interested in the topic. In order to share the information in an eye-catching way, I did need to go beyong the HTML and CSS essentials module I have completed at Code Institute. Mainly, I learned a lot about the use of flexboxes and animation. I've also discovered the importance of setting universal parameters and html font size (rem is my favorite thing at the moment). 
 
 <img src="assets/images/internal-links.png" alt="screenshot of internal links on homepage">
 
@@ -22,6 +22,19 @@ I did want to include the animation in the final project as I believe having a v
 <img src="assets/images/blog-recs.png" alt="screenshot of blog recommendations">
 
 This is a list of well-known blogs that are user friendly with a clean design. They offer high quality recipes that support my vision for wellness and are perfect supplements to the site.
+
+## Deployment
+I used Gitpod to write and deploy the code directly onto main. Github was used to publish the page.
+
+## Testing
+As of date of publishing the page, all links both internal and external have been tested and work as expected.
+
+## Validator Testing
+No errors were returned when passed through both the W3C CSS validator and W3C HTML validator.
+
+<img src="assets/images/Lighthouse.png" alt="screenshot of Lighthouse performance">
+
+Lighthouse score is 100 in accessibility and best practices. SEO is 92 and performance is 53.
 
 ## Credits
 W3Schools has been invaluable in expanding on topics I knew as well as having no knowledge in. Namely, introducing me to concepts of animation and flexbox.
