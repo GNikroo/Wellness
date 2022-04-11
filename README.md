@@ -32,9 +32,9 @@ As of date of publishing the page, all links both internal and external have bee
 ## Validator Testing
 No errors were returned when passed through both the W3C CSS validator and W3C HTML validator.
 
-<img src="assets/images/Lighthouse.png" alt="screenshot of Lighthouse performance">
+<img src="assets/images/lighthouse.png" alt="screenshot of lighthouse performance">
 
-Lighthouse score is 100 in accessibility and best practices. SEO is 92 and performance is 53.
+Lighthouse score is 100 in accessibility and best practices. SEO is 92 and performance is 81.
 
 ## Credits
 W3Schools has been invaluable in expanding on topics I knew as well as having no knowledge in. Namely, introducing me to concepts of animation and flexbox.
