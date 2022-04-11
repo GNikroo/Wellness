@@ -24,7 +24,7 @@ I did want to include the animation in the final project as I believe having a v
 This is a list of well-known blogs that are user friendly with a clean design. They offer high quality recipes that support my vision for wellness and are perfect supplements to the site.
 
 ## Deployment
-I used Gitpod to write and deploy the code directly onto main. Github was used to publish the page.
+I used Gitpod to deploy the code. In settings for my Wellness project repository, I selected the main branch in the source section. The link was then generated publishing the website.
 
 ## Testing
 As of date of publishing the page, all links both internal and external have been tested and work as expected.
@@ -51,5 +51,8 @@ html {
 Freecodecamp has a great page on how to write up a meaningful README.md that I've used as reference so hopefully I've done it justice!
 
 The first few iterations of this website included code from a project I built while following along with the tutorial at Code Institute. It was not my code but I used it for both reference and inspiration (sometimes even as stand-in code) as this project is my very first from the ground up. Because I have never worked with git, the idea of committing and pushing code was very new and I didn’t really think about what it was exactly I was pushing. At some point, you might see that I commented-out the code as I realized this unrelated information would show up in the history. I immediately remembered you should not push commented-out code so I removed it completely and it is now missing. Of course, I understand this is not best practice and have taken it as a learning moment that will influence what I commit/push in the future.
+
+## Media Credits
+All images that are not screenshots of my website are taken from [Pexels](https://www.pexels.com/)
 
 I hope you enjoy my project!
