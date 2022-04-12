@@ -19,8 +19,17 @@ body {
     color: #312e2efb;
 }
 
-h1 {
+h2 {
     color: #3d405a;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 h2, h3{
@@ -49,12 +58,12 @@ i {
     color: #312e2efb;
 }
 
-.h2-container {
+.h3-container {
     margin: 0 2%;
     padding: 1.5rem 3rem 1.5rem;
 }
 
-.h2-links {
+.h3-links {
     text-decoration: underline solid #3d405a;
     text-align: center;
     color: inherit;
@@ -226,6 +235,10 @@ fieldset{
     display: flex;
 }
 
+fieldset h3 {
+    font-size: 2rem;
+}
+
 fieldset h3,p {
     padding: 0%;
 }
@@ -271,7 +284,7 @@ ul a {
 }
 
 .icon-padding {
-    /* padding-right: 1.5rem; */
+    padding-right: 1.5rem;
 }
 
 .blogs {
@@ -321,13 +334,6 @@ ul a {
 }
 
 /* media queries */
-/* for medium screens sizes from 1032px wide and down */
-@media screen and (max-width: 1032px){
-    #banner1-text {
-        font-size: 2rem;
-    }
-}
-
 /* for medium screens sizes from 1038px wide and down */
 @media screen and (max-width: 1038px){
     fieldset{
@@ -344,10 +350,6 @@ ul a {
 
 /* for medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
-
-    h2 {
-        font-size: 2rem;
-    }
 
     #menu-1 {
         display: none;
@@ -380,12 +382,12 @@ ul a {
     }
 
     #banner1-text {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
-    .underline h2,h3 {
-        font-size: 1.3rem;
-        text-align: left;
+    h3 {
+        font-size: 2.5rem;
+        /* text-align: left; */
     }
 }
 
