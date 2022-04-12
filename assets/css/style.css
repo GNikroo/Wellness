@@ -194,6 +194,34 @@ footer {
     border-radius: 50%;
 }
 
+/* form */
+fieldset{
+    position: relative;
+    border: 1px solid #3d405a;
+    border-radius: 2.5rem;
+    width: 110rem;
+    height: 15rem;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+} 
+
+fieldset h3,p {
+    padding: 0%;
+}
+
+.center{
+    padding-top: 5rem;
+    margin: 0 2rem;
+    position: relative;
+    justify-content: center;
+    display: flex;  
+}
+
+.center p {
+    text-align: center;
+}
+
 /* footer */
 .quotes {
     padding: 1.5rem 3rem 1.5rem;
@@ -272,6 +300,20 @@ ul a {
     }
 }
 
+/* for medium screens sizes from 1038px wide and down */
+@media screen and (max-width: 1038px){
+    fieldset{
+        height: 18rem;
+    } 
+
+    fieldset h3 {
+        font-size: 1.8rem;
+    }
+    fieldset p {
+        font-size: 1.6rem;
+    }
+}
+
 /* for medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
 
@@ -314,7 +356,22 @@ ul a {
     }
 
     .underline h2,h3 {
+        font-size: 1.3rem;
         text-align: left;
+    }
+}
+
+/* for medium screens sizes from 491px wide and down */
+@media screen and (max-width: 491px){
+    fieldset{
+        height: 24rem;
+    } 
+
+    fieldset h3 {
+        font-size: 1.8rem;
+    }
+    fieldset p {
+        font-size: 1.6rem;
     }
 }
 
