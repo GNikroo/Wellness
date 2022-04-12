@@ -86,13 +86,13 @@ i {
 
 #logo h1{
     display: inline;
+    padding: 1rem 2rem 0;
     width: 25rem;
     text-transform: lowercase;
+    font-family: 'Lavishly Yours', cursive;
     font-weight: 500;
-    padding: 1rem 2rem 0;
     font-size: 5rem;
     color: #3d405a;
-    font-family: 'Lavishly Yours', cursive;
 }
 
 /* headings and banner*/
