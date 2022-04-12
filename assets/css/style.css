@@ -374,7 +374,6 @@ ul a {
 
 /* for medium screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
-
     #menu-1 {
         display: none;
     }
@@ -400,7 +399,6 @@ ul a {
 
 /* for medium screens sizes from 559px wide and down */
 @media screen and (max-width: 559px){
-
     body {
         font-size: 1.6rem;
     }
@@ -441,18 +439,15 @@ ul a {
 
 /* for medium screens sizes from 344px wide and down */
 @media screen and (max-width: 344px){
-
     #banner1-text {
         font-size: 1.5rem;
     }
 }
 
-/* for medium screens sizes from 320 wide and down */
-@media screen and (max-width: 320){
+/* for medium screens sizes from 320px wide and down */
+@media screen and (max-width: 320px){
     #logo h1{
-
         width: 5rem;
         font-size: 2.5rem;
     }
-
 }
