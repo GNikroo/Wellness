@@ -15,7 +15,7 @@ I wanted to create a website focused on wellness as it is a very recent and pers
 
 ### Wireframe 
 
-<img src="assets/images/ wellness-wireframe.jpg " alt="screenshot of wireframe made with Miro"> 
+<img src="assets/images/wellness-wireframe.jpg" alt="screenshot of wireframe made with Miro"> 
 
 The vision for my project began more ambitiously with a separate page that would lead you into the homepage. I scrapped the idea as it seemed to contradict the suggestion that wellness should be simple to begin.  
 
@@ -25,9 +25,17 @@ In order to share the information in an eye-catching way, I did need to go beyon
 
 Wellness Begins with You is a website dedicated to helping a beginner understand how to approach their health in a holistic way by taking small steps towards mindfulness and a better diet. From the homepage, readers learn about what wellbeing is and can read an overview of the other pages of the website. There are two points of navigation for each page from the homepage - the navigation bar and the headings at the top of each section. The nav bar is responsive and changes to icons on a smaller screen. 
 
-<img src="assets/images/internal-links.png" alt="screenshot of internal links on homepage"> 
-
 <img src="assets/images/nav-mobile.png" alt="screenshot of navigation links for smaller screen size"> 
+
+There are wellness related quotes on each page which reflect the content of said page. These are colored to highlight them.
+
+<img src="assets/images/quote.png" alt="screenshot of homepage quote"> 
+
+There is a sign-up form below the exercise section that asks if you would like to sign up for weekly emails.
+
+The footer contains social media links and a colored copyright bar.
+
+<img src="assets/images/signup-and-footer.png" alt="screenshot of sign-up form and footer"> 
 
 The food page talks about how important the small steps are to building the foundation of a healthy diet. I’ve compiled three recommended blogs and offered a description of each as well as a selection of recipes to try. This is to create a sense of confidence in the reader that this is something achievable and doesn’t need to be done all at once. 
 
