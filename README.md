@@ -5,11 +5,10 @@ I wanted to create a website focused on wellness as it is a very recent and pers
 <img src="assets/images/responsive.png" alt="screenshot of various screens showing responsiveness"> 
 
 ## Table of Contents 
-* [Description](#description) 
+* [Description](#description)
 * [Deployment](#deployment) 
 * [Testing](#testing) 
-* [Credits](#credits) 
- 
+* [Credits](#credits)
 
 ## Description 
 
@@ -66,6 +65,7 @@ As of date of publishing the page, all links both internal and external have bee
 ### Media 
 
 * All images that are not screenshots of my website are taken from [Pexels](https://www.pexels.com/) 
+* Favicon was downloaded with permission from [freefavicon](https://freefavicon.com/) 
 
 ### Content 
 
@@ -76,6 +76,7 @@ html {
     font-size: 62.5%; 
 } 
 ``` 
+* The navigation bar and logo were written with inspiration from Code Institute's Love Running project with a few changes to incorporate the switch in menu styles.
 
 * The first few iterations of this website included code from a project I built while following along with the tutorial at Code Institute. It was not my code but I used it for both reference and inspiration (sometimes even as stand-in code) as this project is my very first from the ground up. Because I have never worked with git, the idea of committing and pushing code was very new and I didn’t really think about what it was exactly I was pushing. At some point, you might see that I commented-out the code as I realized this unrelated information would show up in the history. I immediately remembered you should not push commented-out code so I removed it completely and it is now missing. Of course, I understand this is not best practice and have taken it as a learning moment that will influence what I commit/push in the future. 
 
